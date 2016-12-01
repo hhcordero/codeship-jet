@@ -9,3 +9,6 @@ exec docker run --rm -it -v "$PWD:/root" egeland/codeship-jet:latest $*
 ## Repo
 
 https://github.com/egeland/codeship-jet
+
+Pull requests welcome :)
+
