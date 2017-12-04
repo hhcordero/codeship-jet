@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-ENV JET_VERSION 1.18.15
+ENV JET_VERSION 1.19.3
 
 RUN apk --no-cache add --virtual .build-deps curl tar && \
     curl -SLO "https://s3.amazonaws.com/codeship-jet-releases/${JET_VERSION}/jet-linux_amd64_${JET_VERSION}.tar.gz" && \
